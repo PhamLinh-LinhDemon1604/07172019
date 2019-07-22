@@ -87,6 +87,7 @@ footer {
       footer p {
         margin-bottom: 0;
         font-size: 8px; } }
+      
 
 .container {
   max-width: 1200px;
@@ -1220,7 +1221,7 @@ main {
       padding-top: 15px;
       margin-top: 0;
       margin-bottom: 0;
-      min-height: calc(100vh - 163px); } }
+      min-height: calc(100vh - 230px); } }
   @media (min-width: 992px) {
     .main-wrapper.hide-sidebar aside {
       display: none; } }
@@ -2045,7 +2046,7 @@ main {
     .btn-red {
       font-size: 15px;
       height: 36px;
-      line-height: 36px;
+      line-height: 50px;
       padding: 0; } }
 
 .btn-gray {
@@ -3905,6 +3906,9 @@ main {
       font-weight: 600;
     }
     @media (max-width: 767px){
+      .event-banner2.fb-event-banner2{
+        display: block;
+      }
         .form-content-wrapper .span-header{
             font-size: 15px;
             font-weight: bold;
@@ -3931,7 +3935,19 @@ main {
         .final-step p{
           font-size: 13px;
         }
-        .main-wrapper .main-content .feedback{
-          margin-bottom: 100px;
-        }
+        
     }
+    .event-banner2{
+      margin: 0;
+      -webkit-box-ordinal-group: 11;
+      -ms-flex-order: 10;
+      order: 10;
+      padding: 6px 10px;
+      background: #333333;
+      display: none;
+    }
+    .event-banner2 img{
+      height: auto;
+      width: 100%;
+    }
+    
